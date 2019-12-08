@@ -1,8 +1,6 @@
 package fr.feavy.pokemon.ui;
 
-import fr.feavy.pokemon.Pokemon;
 import fr.feavy.pokemon.ui.scenes.Scene;
-import fr.feavy.pokemon.ui.scenes.WorldScene;
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,7 +12,6 @@ public class GamePanel extends JPanel {
 
     public GamePanel() {
         setPreferredSize(new Dimension(10*TILE_WIDTH, 9*TILE_WIDTH));
-        this.currentScene = new WorldScene(Pokemon.getInstance().getMap(), Pokemon.getInstance().getCamera());
 
         // Initialize game loop
 
@@ -31,6 +28,10 @@ public class GamePanel extends JPanel {
                 }
             }
         }).start();
+    }
+
+    public void switchScene(Scene newScene) {
+        this.currentScene = newScene;
     }
 
     @Override

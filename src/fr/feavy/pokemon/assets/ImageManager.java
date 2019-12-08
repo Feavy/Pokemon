@@ -17,7 +17,7 @@ public class ImageManager {
         }
     }
 
-    // TileSet : 38 x 41 tiles
+    // TileSet : 37 x 41 tiles
 
     public static Image getTile(int id) {
         return tileset.getSubimage((id%38)*16, (id/38)*16,16,16);
