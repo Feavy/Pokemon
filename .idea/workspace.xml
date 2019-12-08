@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2061ea-2775-478a-828d-07ad50cac585" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/Vars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/direction/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/drawable/Drawable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/drawable/character/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/drawable/character/movement/KeyboardMovementBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/drawable/character/movement/MovingBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/drawable/sprite/AnimatedSprite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/drawable/sprite/Sprite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/image/ImageSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/location/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/location/Size.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/feavy/pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/feavy/pokemon/assets/ImageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/assets/ImageManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/feavy/pokemon/map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/map/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/feavy/pokemon/map/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/map/Tile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/feavy/pokemon/ui/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/ui/scenes/world/Camera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/feavy/pokemon/ui/GameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/ui/GameFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/feavy/pokemon/ui/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/ui/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/feavy/pokemon/ui/scenes/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/ui/scenes/Scene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/feavy/pokemon/ui/scenes/WorldScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/ui/scenes/world/WorldScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/feavy/pokemon/direction/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/direction/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/feavy/pokemon/drawable/character/movement/KeyboardMovementBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/drawable/character/movement/KeyboardMovementBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/feavy/pokemon/location/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/location/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/feavy/pokemon/ui/scenes/world/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/feavy/pokemon/ui/scenes/world/Camera.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +91,17 @@
       <workItem from="1575655221464" duration="767000" />
       <workItem from="1575751149800" duration="729000" />
       <workItem from="1575805581256" duration="3296000" />
-      <workItem from="1575823789131" duration="4571000" />
+      <workItem from="1575823789131" duration="4672000" />
+      <workItem from="1575829360572" duration="510000" />
     </task>
+    <task id="LOCAL-00001" summary="A lot of things">
+      <created>1575828841709</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575828841709</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,31 +120,43 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="A lot of things" />
+    <option name="LAST_COMMIT_MESSAGE" value="A lot of things" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="645" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1575827490846">
+    <state x="645" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1575829542734">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="645" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1575827490846" />
-    <state width="818" height="271" key="GridCell.Tab.0.bottom" timestamp="1575826225227">
+    <state x="645" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1575829542734" />
+    <state x="278" y="99" key="CommitChangelistDialog2" timestamp="1575828837266">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="818" height="271" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1575826225227" />
-    <state width="818" height="271" key="GridCell.Tab.0.center" timestamp="1575826225227">
+    <state x="278" y="99" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1575828837266" />
+    <state width="818" height="271" key="GridCell.Tab.0.bottom" timestamp="1575828901687">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="818" height="271" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1575826225227" />
-    <state width="818" height="271" key="GridCell.Tab.0.left" timestamp="1575826225227">
+    <state width="818" height="271" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1575828901687" />
+    <state width="818" height="271" key="GridCell.Tab.0.center" timestamp="1575828901687">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="818" height="271" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1575826225227" />
-    <state width="818" height="271" key="GridCell.Tab.0.right" timestamp="1575826225227">
+    <state width="818" height="271" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1575828901687" />
+    <state width="818" height="271" key="GridCell.Tab.0.left" timestamp="1575828901687">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="818" height="271" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1575826225227" />
-    <state x="536" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1575823799055">
+    <state width="818" height="271" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1575828901687" />
+    <state width="818" height="271" key="GridCell.Tab.0.right" timestamp="1575828901687">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="536" y="328" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1575823799055" />
+    <state width="818" height="271" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1575828901687" />
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1575828844920">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1575828844920" />
+    <state x="536" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1575829360103">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="536" y="328" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1575829360103" />
     <state x="496" y="233" key="run.anything.popup" timestamp="1575825646893">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

@@ -5,11 +5,18 @@ import fr.feavy.pokemon.Vars;
 public class Location {
     private int x, y, xOffset, yOffset;
 
-    public Location(int x, int y, int xOffset, int yOffset) {
+    public Location(int x, int y) {
         this.x = x;
         this.y = y;
-        this.xOffset = xOffset;
-        this.yOffset = yOffset;
+        this.xOffset = 0;
+        this.yOffset = 0;
+    }
+
+    public void add(Location other) {
+        this.x += other.x;
+        this.y += other.y;
+        this.xOffset += other.xOffset;
+        this.yOffset += other.yOffset;
     }
 
     public void add(int x, int y) {

@@ -9,6 +9,9 @@ import fr.feavy.pokemon.ui.GamePanel;
 import fr.feavy.pokemon.ui.scenes.Scene;
 import fr.feavy.pokemon.ui.scenes.world.WorldScene;
 
+import javax.swing.*;
+import java.awt.event.KeyListener;
+
 public class Pokemon {
     private final static Pokemon INSTANCE = new Pokemon();
 
@@ -26,6 +29,10 @@ public class Pokemon {
         this.map = createTestMap();
         this.panel = new GamePanel();
         switchScene(new WorldScene(map, camera));
+    }
+
+    public void addKeyListener(KeyListener listener) {
+        ((JFrame) SwingUtilities.getWindowAncestor(panel)).addKeyListener(listener);
     }
 
     public Player getPlayer() {
